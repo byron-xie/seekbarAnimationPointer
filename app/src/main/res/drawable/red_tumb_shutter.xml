@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/backgroud"
+        android:width="180px"
+        android:height="180px"
+        android:drawable="@drawable/shutter"/>
+</layer-list>

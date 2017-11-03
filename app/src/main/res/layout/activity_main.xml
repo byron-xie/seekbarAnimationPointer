@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:clipChildren="false"
+    android:layout_height="match_parent"
+    tools:context="aaaaaaaa.example.com.myapplication.MainActivity">
+
+
+
+
+
+    <SeekBar
+        android:id="@+id/acs"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="200dp"
+        android:max="300"
+        android:thumbOffset="0dp"
+        android:thumb="@drawable/red_tumb_shutter"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/shutter_pointer"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/acs"
+ />
+
+</RelativeLayout>
